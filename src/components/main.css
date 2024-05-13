@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.header .logo-text{
+    display: flex;
+    align-items: center;
+}
+.header .logo-text img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #ffc404;
+    height: fit-content;
+}
+.header .logo-text h2{
+    color: #ffc404;
+    margin-left: 5px;
+}
+.header .cartButton button{
+    color: #ffc404;
+    background-color: transparent;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 15px;
+}
+.meals-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meals-container .box{
+    background-color: black;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.meals-container .box img{
+    max-width: 100%;
+}
+.meals-container .text{
+    padding: 20px;
+}
+.cart-container{
+    background-color: bisque;
+    color: black;
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(50%);
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-container .cart .text{
+    display: flex;
+}
+.cart-container .cart .text p{
+    margin-left: 5px
+}
+.cart-container .cart .buttons{
+
+}
+.cart-container .cart .buttons button{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: yellow;
+    margin-left: 5px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
